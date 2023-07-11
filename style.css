@@ -29,6 +29,10 @@ body {
     border: none;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
 .wlctypo {
     padding: 30px 0;
     color: rgba(39, 39, 39, 0.60);
@@ -43,6 +47,39 @@ body {
 
 
 /* single style */
+
+nav{
+    display: flex;
+    background-color: #272727;
+    justify-content: space-between;
+    justify-items: center ;
+    align-items: center;
+    padding: 0 50px;
+}
+nav>.foothead{
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 30px;
+}
+.menu{
+    display: flex;color:
+     #ffffff;
+     list-style: none;
+     margin-right: 40px;
+}
+.option{
+    margin-left: 1px;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: #252424;
+    border-radius: 5px;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: #E55473;
+}
+
 .home {
     display: flex;
     height: 850px;
@@ -61,10 +98,6 @@ body {
     text-align: center;
     font-size: 18px;
 }
-
-
-
-
 
 .wlcpic {
     width: 635px;
