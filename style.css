@@ -25,6 +25,8 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    font-style: normal;
+    border: none;
 }
 
 .wlctypo {
@@ -220,9 +222,50 @@ div.box {
 .insta-head .wlcnote {
     margin-top: 10px;
 }
-.insta-pic{
+
+.insta-pic {
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-top: 48px;
+}
+
+.banner .wlc {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    text-align: center;
+    margin: 128px auto 128px;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    width: 1440px;
+    height: 449px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center; 
+    gap: 16px; 
+    margin-top: 50px;
+    
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    
+}
+.subscribe.btn{
+
+}
+::placeholder{
+    padding: 22px 22px 512px 22px;
 }
