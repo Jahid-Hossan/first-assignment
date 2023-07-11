@@ -85,7 +85,8 @@ body {
 .third {
     display: flex;
     justify-content: space-between;
-    margin: 50px 240px 30px;
+    margin: 50px auto 30px;
+    width: 1440px;
 
 }
 
@@ -95,52 +96,111 @@ div.box {
     border-radius: 300px 300px 0px 0px;
     margin-bottom: 50px;
     display: flex;
- align-items: center;
- justify-content: center;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .first {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-   
+
 
 }
 
 .sec {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15); 
+    background: rgba(5, 151, 160, 0.15);
 }
 
 .trd {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    
+
 }
 
-.pngone{
+.pngone {
     width: 310px;
     height: 428px;
     margin-bottom: -112px;
 
 }
-.pngtwo{
+
+.pngtwo {
     width: 370px;
     height: 370px;
     margin-bottom: -90px;
 }
-.pngthree{
+
+.pngthree {
     width: 314px;
     height: 471px;
     margin-bottom: -68px
 }
 
 .desc {
-    Copy
-color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+    Copy color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.delivery-box {
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px auto;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.delivery {
+    text-align: center;
+}
+
+.delivery-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+.deals {
+    display: flex;
+    width: 1922px;
+    height: 450px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.deal {
+    text-align: center;
+    width: 590px;
+    margin-left: 430px;
+
+
+}
+
+.deal>.wlc {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-pic {
+    margin-right: 430px;
+    width: 318px;
+    height: 420px;
 }
