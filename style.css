@@ -51,7 +51,7 @@ body {
 nav{
     display: flex;
     background-color: #272727;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-items: center ;
     align-items: center;
     padding: 0 50px;
@@ -61,11 +61,20 @@ nav>.foothead{
     padding: 10px;
     font-size: 30px;
 }
+
+.wlcnote>.wlc{
+    text-align: left;
+}
+
+.wlcnote>.wlctypo{
+    text-align: left;
+}
+
 .menu{
     display: flex;color:
      #ffffff;
      list-style: none;
-     margin-right: 40px;
+     
 }
 .option{
     margin-left: 1px;
@@ -74,7 +83,13 @@ nav>.foothead{
     padding: 15px 20px;
     background-color: #252424;
     border-radius: 5px;
+    color: #FFF;
 }
+
+.login{
+    margin-right: 40px;
+}
+
 .option:hover{
     cursor: pointer;
     background-color: #E55473;
