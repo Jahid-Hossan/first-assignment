@@ -49,6 +49,11 @@ body {
 .wlcnote {
     width: 700px;
     word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
 }
 
 
@@ -175,21 +180,17 @@ div.box {
 
 .deals {
     display: flex;
-    width: 1922px;
     height: 450px;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    margin: auto;
-    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
     align-items: center;
-    justify-items: center;
 
 }
 
 .deal {
     text-align: center;
     width: 590px;
-    margin-left: 430px;
+
 
 
 }
@@ -200,7 +201,28 @@ div.box {
 }
 
 .deal-pic {
-    margin-right: 430px;
     width: 318px;
     height: 420px;
+}
+
+#off {
+    color: #E55473;
+}
+
+.insta-head .wlc {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+}
+
+.insta-head .wlcnote {
+    margin-top: 10px;
+}
+.insta-pic{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
 }
