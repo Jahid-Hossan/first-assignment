@@ -249,10 +249,10 @@ div.box {
 
 .subscribe {
     display: flex;
-    justify-content: center; 
-    gap: 16px; 
+    justify-content: center;
+    gap: 16px;
     margin-top: 50px;
-    
+
 }
 
 .email {
@@ -261,11 +261,46 @@ div.box {
     border-radius: 8px;
     background: #FFF;
     border: none;
-    
-}
-.subscribe.btn{
 
 }
-::placeholder{
+
+.subscribe.btn {}
+
+::placeholder {
     padding: 22px 22px 512px 22px;
+}
+
+footer {
+    width: 1922px;
+    height: 450px;
+    background: #111010;
+    margin: auto;
+}
+
+.foothead {
+    text-align: center;
+    color: #FFF;
+    padding-top: 128px;
+}
+
+footer .wlctypo {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h1>span {
+    color: #E55473;
+    font-weight: 800;
+}
+.rights{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+padding-top: 20px;
 }
