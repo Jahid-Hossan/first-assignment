@@ -30,11 +30,14 @@ body {
 }
 
 .wlctypo {
-    margin: 30px 0;
+    padding: 30px 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
 }
 
 
@@ -43,16 +46,17 @@ body {
 .home {
     display: flex;
     height: 850px;
+    margin: auto;
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
     align-items: center;
+    justify-items: center;
 }
 
 .wlcnote {
     width: 700px;
     word-wrap: break-word;
     text-align: center;
-    margin: auto;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -146,7 +150,7 @@ div.box {
 }
 
 .desc {
-    Copy color: #272727;
+    color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
@@ -219,8 +223,9 @@ div.box {
     margin-top: 128px;
 }
 
-.insta-head .wlcnote {
+.insta-head .wlctypo {
     margin-top: 10px;
+    width: 594px;
 }
 
 .insta-pic {
@@ -271,36 +276,40 @@ div.box {
 }
 
 footer {
-    width: 1922px;
-    height: 450px;
+    width: auto;
+    height: 280px;
     background: #111010;
     margin: auto;
 }
 
 .foothead {
-    text-align: center;
+    /* text-align: center; */
     color: #FFF;
-    padding-top: 128px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 footer .wlctypo {
+    display: flex;
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
+    justify-content: center;
     font-size: 18px;
     font-weight: 400;
     width: 625px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 h1>span {
     color: #E55473;
     font-weight: 800;
 }
-.rights{
-color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-padding-top: 20px;
+
+.rights {
+    display: flex;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
 }
